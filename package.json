@@ -1,0 +1,36 @@
+{ "name": "slashable-import-pmb",
+  "version": "0.1.0",
+  "description": "Dynamically import modules as resolved from current directory. On failure, retry with some default filenames appended.",
+  "keywords": [
+    "dynamic import"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/slashable-import-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/slashable-import-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/slashable-import-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "simp.mjs",
+  "scripts": { "test": "nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+
+  "dependencies": {
+    "absdir": "^1.0.6",
+    "pify": "^5.0.0",
+    "resolve": "^1.17.0"
+  },
+  "devDependencies": {
+    "nodemjs": "^0.1.8"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
